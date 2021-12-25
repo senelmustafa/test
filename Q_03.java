@@ -6,13 +6,13 @@ import java.util.Scanner;
 public class Q_03 {
 
 	public static void main(String[] args) {
-		//girilen bilgileri alt alta yazdýrýyoruz
-		System.out.print("Kullanýcý adýnýzý giriniz =");
+		//girilen bilgileri alt alta yazdï¿½rï¿½yoruz
+		System.out.print("Kullanï¿½cï¿½ adï¿½nï¿½zï¿½ giriniz =");
 		Scanner scan=new Scanner(System.in);
 		String adi=scan.nextLine();
-		System.out.print("soyadýnýzý giriniz =");
+		System.out.print("soyadï¿½nï¿½zï¿½ giriniz =");
 		String sAdi=scan.nextLine();
-		System.out.print("yaþ =");
+		System.out.print("yaï¿½ =");
 		int yas=scan.nextInt();
 		System.out.print("boyunuzu giriniz =");
 		int boy=scan.nextInt();
@@ -22,4 +22,5 @@ public class Q_03 {
 scan.close();
 	}
 
+	
 }
